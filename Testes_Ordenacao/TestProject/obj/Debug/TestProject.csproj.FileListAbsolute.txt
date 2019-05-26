@@ -1,0 +1,2 @@
+C:\Users\arthu\Downloads\TP_ORDENACAO-20190501T160926Z-001\TP_ORDENACAO\TestProject\obj\Debug\TestProject.csprojAssemblyReference.cache
+C:\Users\arthu\Downloads\TP_ORDENACAO-20190501T160926Z-001\TP_ORDENACAO\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
