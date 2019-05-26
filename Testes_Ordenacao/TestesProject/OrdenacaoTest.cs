@@ -7,7 +7,6 @@ namespace TestesProject
     [TestClass]
     public class OrdenacaoTest
     {
-
         const int tamanho = 5;
 
         [TestMethod]

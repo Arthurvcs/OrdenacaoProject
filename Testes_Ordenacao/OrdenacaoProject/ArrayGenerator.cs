@@ -52,13 +52,6 @@ namespace TP_ORDENACAO
 
         public static int[] Random(int tamanho)
         {
-            //Random aleat = new Random(42);
-
-            //int[] aux = new int[tamanho];
-            //for (int i = 0; i < tamanho; i++)
-            //{
-            //    aux[i] = aleat.Next(0, tamanho);
-            //}
             int[] aux = new int[tamanho];
             for (int i = 0; i < tamanho; i++)
             {

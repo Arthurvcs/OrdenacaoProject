@@ -18,3 +18,13 @@ C:\Users\arthu\Downloads\TP_ORDENACAO-20190501T160926Z-001\TP_ORDENACAO\TP_ORDEN
 C:\Users\arthu\Downloads\TP_ORDENACAO-20190501T160926Z-001\TP_ORDENACAO\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.csproj.CoreCompileInputs.cache
 C:\Users\arthu\Downloads\TP_ORDENACAO-20190501T160926Z-001\TP_ORDENACAO\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.exe
 C:\Users\arthu\Downloads\TP_ORDENACAO-20190501T160926Z-001\TP_ORDENACAO\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.pdb
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\bin\Debug\TP_ORDENACAO.exe.config
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\bin\Debug\TP_ORDENACAO.exe
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\bin\Debug\TP_ORDENACAO.pdb
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.csprojAssemblyReference.cache
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.Form1.resources
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.Properties.Resources.resources
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.csproj.GenerateResource.cache
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.csproj.CoreCompileInputs.cache
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.exe
+C:\Users\arthu\Downloads\Testes_Ordenacao-20190526T205447Z-001\Testes_Ordenacao\TP_ORDENACAO\obj\Debug\TP_ORDENACAO.pdb
