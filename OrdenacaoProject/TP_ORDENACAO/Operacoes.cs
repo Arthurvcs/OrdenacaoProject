@@ -8,7 +8,7 @@ namespace OrdenacaoProject
 {
     public static class Operacoes
     {
-        #region MergeSort
+        #region QuickSort
         /// <summary>
         /// Método publico para o usuário Organizar um vetor
         /// </summary>
@@ -199,6 +199,27 @@ namespace OrdenacaoProject
                 { return vet; }
             }
             return vet;
+        }
+        #endregion
+
+
+        #region Inserção
+        public static int[] ordenaInsercao(int[] vetor)
+        {
+            int i, j, atual;
+
+            for (i = 1; i < vetor.Length; i++)
+            {
+                atual = vetor[i];
+                j = i;
+                while ((j > 0) && (vetor[j - 1] > atual))
+                {
+                    vetor[j] = vetor[j - 1];
+                    j = j - 1;
+                }
+                vetor[j] = atual;
+            }
+            return vetor;
         }
         #endregion
     }

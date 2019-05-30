@@ -70,7 +70,27 @@ namespace OrdenacaoProject
 
         }
 
-       static int[] Shuffle(int [] array)
+        public static long[] NewRandom(long tamanho)
+        {
+            //Random aleat = new Random(42);
+
+            //int[] aux = new int[tamanho];
+            //for (int i = 0; i < tamanho; i++)
+            //{
+            //    aux[i] = aleat.Next(0, tamanho);
+            //}
+            long[] aux = new long[tamanho];
+            for (int i = 0; i < tamanho; i++)
+            {
+                aux[i] = (i + 1);
+            }
+            aux = newShuffle(aux);
+
+            return aux;
+
+        }
+
+        static int[] Shuffle(int [] array)
         {
             Random _random = new Random();
 
@@ -80,6 +100,22 @@ namespace OrdenacaoProject
                 int j = random.Next(i); 
                                         
                 int tmp = array[j];
+                array[j] = array[i - 1];
+                array[i - 1] = tmp;
+            }
+            return array;
+        }
+
+        static long[] newShuffle(long[] array)
+        {
+            Random _random = new Random();
+
+            var random = _random;
+            for (int i = array.Length; i > 1; i--)
+            {
+                int j = random.Next(i);
+
+                long tmp = array[j];
                 array[j] = array[i - 1];
                 array[i - 1] = tmp;
             }

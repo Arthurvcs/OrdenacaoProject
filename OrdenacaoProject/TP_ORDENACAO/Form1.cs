@@ -35,7 +35,7 @@ namespace OrdenacaoProject
                 vetAleatorio = ArrayGenerator.Random(tamanho);
 
                 timer.Start();
-                QuickSort.Ordenar(vetAleatorio);
+                Operacoes.OrdenarQuickSort(vetAleatorio);
                 timer.Stop();
 
                 aux_aleatorio.Text = TimeText();
@@ -43,7 +43,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                QuickSort.Ordenar(vetSemiOrdenado);
+                Operacoes.OrdenarQuickSort(vetSemiOrdenado);
                 timer.Stop();
 
                 aux_semiOrdenado.Text = TimeText();
@@ -51,7 +51,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                QuickSort.Ordenar(vetCrescente);
+                Operacoes.OrdenarQuickSort(vetCrescente);
                 timer.Stop();
 
                 aux_Crescente.Text = TimeText();
@@ -59,7 +59,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                QuickSort.Ordenar(vetDecrescente);
+                Operacoes.OrdenarQuickSort(vetDecrescente);
                 timer.Stop();
 
                 aux_decrescente.Text = TimeText();
@@ -83,7 +83,7 @@ namespace OrdenacaoProject
                 vetAleatorio = ArrayGenerator.Random(tamanho);
 
                 timer.Start();
-                Selecao.Ordenar(vetAleatorio);
+                Operacoes.OrdenarSelecao(vetAleatorio);
                 timer.Stop();
 
                 aux_aleatorio.Text = TimeText();
@@ -91,7 +91,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                Selecao.Ordenar(vetSemiOrdenado);
+                Operacoes.OrdenarSelecao(vetSemiOrdenado);
                 timer.Stop();
 
                 aux_semiOrdenado.Text = TimeText();
@@ -99,7 +99,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                Selecao.Ordenar(vetCrescente);
+                Operacoes.OrdenarSelecao(vetCrescente);
                 timer.Stop();
 
                 aux_Crescente.Text = TimeText();
@@ -107,7 +107,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                Selecao.Ordenar(vetDecrescente);
+                Operacoes.OrdenarSelecao(vetDecrescente);
                 timer.Stop();
 
                 aux_decrescente.Text = TimeText();
@@ -131,7 +131,7 @@ namespace OrdenacaoProject
                 vetAleatorio = ArrayGenerator.Random(tamanho);
 
                 timer.Start();
-                BubbleSort.Ordenar(vetAleatorio);
+                Operacoes.OrdenarBubbleSort(vetAleatorio);
                 timer.Stop();
 
                 aux_aleatorio.Text = TimeText();
@@ -139,7 +139,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                BubbleSort.Ordenar(vetSemiOrdenado);
+                Operacoes.OrdenarBubbleSort(vetSemiOrdenado);
                 timer.Stop();
 
                 aux_semiOrdenado.Text = TimeText();
@@ -147,7 +147,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                BubbleSort.Ordenar(vetCrescente);
+                Operacoes.OrdenarBubbleSort(vetCrescente);
                 timer.Stop();
 
                 aux_Crescente.Text = TimeText();
@@ -155,7 +155,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                BubbleSort.Ordenar(vetDecrescente);
+                Operacoes.OrdenarBubbleSort(vetDecrescente);
                 timer.Stop();
 
                 aux_decrescente.Text = TimeText();
@@ -179,7 +179,7 @@ namespace OrdenacaoProject
                 vetAleatorio = ArrayGenerator.Random(tamanho);
 
                 timer.Start();
-                MergeSort.Ordenar(vetAleatorio);
+                Operacoes.OrdenarMergeSort(vetAleatorio);
                 timer.Stop();
 
                 aux_aleatorio.Text = TimeText();
@@ -187,7 +187,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                MergeSort.Ordenar(vetSemiOrdenado);
+                Operacoes.OrdenarMergeSort(vetSemiOrdenado);
                 timer.Stop();
 
                 aux_semiOrdenado.Text = TimeText();
@@ -195,7 +195,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                MergeSort.Ordenar(vetCrescente);
+                Operacoes.OrdenarMergeSort(vetCrescente);
                 timer.Stop();
 
                 aux_Crescente.Text = TimeText();
@@ -203,7 +203,7 @@ namespace OrdenacaoProject
                 timer.Reset();
 
                 timer.Start();
-                MergeSort.Ordenar(vetDecrescente);
+                Operacoes.OrdenarMergeSort(vetDecrescente);
                 timer.Stop();
 
                 aux_decrescente.Text = TimeText();
