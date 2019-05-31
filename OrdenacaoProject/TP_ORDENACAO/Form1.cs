@@ -164,6 +164,54 @@ namespace OrdenacaoProject
             }
         }
 
+        private void btn_insercao_Click(object sender, EventArgs e)
+        {
+            CleanUp();
+            if (cb_tempos.SelectedItem == null)
+            { MessageBox.Show("Selecione o tamnho do vetor", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Asterisk); }
+            else
+            {
+                tamanho = int.Parse(cb_tempos.SelectedItem.ToString());
+
+                vetCrescente = ArrayGenerator.Crescente(tamanho);
+                vetDecrescente = ArrayGenerator.Decrescente(tamanho);
+                vetSemiOrdenado = ArrayGenerator.SemiOrdenado(tamanho);
+                vetAleatorio = ArrayGenerator.Random(tamanho);
+
+                timer.Start();
+                Operacoes.ordenaInsercao(vetAleatorio);
+                timer.Stop();
+
+                aux_aleatorio.Text = TimeText();
+                aux_aleatorio.Visible = true;
+                timer.Reset();
+
+                timer.Start();
+                Operacoes.ordenaInsercao(vetSemiOrdenado);
+                timer.Stop();
+
+                aux_semiOrdenado.Text = TimeText();
+                aux_semiOrdenado.Visible = true;
+                timer.Reset();
+
+                timer.Start();
+                Operacoes.ordenaInsercao(vetCrescente);
+                timer.Stop();
+
+                aux_Crescente.Text = TimeText();
+                aux_Crescente.Visible = true;
+                timer.Reset();
+
+                timer.Start();
+                Operacoes.ordenaInsercao(vetDecrescente);
+                timer.Stop();
+
+                aux_decrescente.Text = TimeText();
+                aux_decrescente.Visible = true;
+                timer.Reset();
+            }
+        }
+
         private void bt_MergeSort_Click(object sender, EventArgs e)
         {
             CleanUp();

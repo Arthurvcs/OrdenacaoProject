@@ -42,6 +42,7 @@
             this.aux_aleatorio = new System.Windows.Forms.Label();
             this.aux_decrescente = new System.Windows.Forms.Label();
             this.aux_Crescente = new System.Windows.Forms.Label();
+            this.btn_insercao = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bt_bubbleSort
@@ -49,7 +50,7 @@
             this.bt_bubbleSort.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             this.bt_bubbleSort.FlatAppearance.BorderSize = 3;
             this.bt_bubbleSort.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_bubbleSort.Location = new System.Drawing.Point(94, 104);
+            this.bt_bubbleSort.Location = new System.Drawing.Point(14, 107);
             this.bt_bubbleSort.Name = "bt_bubbleSort";
             this.bt_bubbleSort.Size = new System.Drawing.Size(97, 37);
             this.bt_bubbleSort.TabIndex = 0;
@@ -62,7 +63,7 @@
             this.bt_selecao.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             this.bt_selecao.FlatAppearance.BorderSize = 3;
             this.bt_selecao.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_selecao.Location = new System.Drawing.Point(197, 104);
+            this.bt_selecao.Location = new System.Drawing.Point(117, 107);
             this.bt_selecao.Name = "bt_selecao";
             this.bt_selecao.Size = new System.Drawing.Size(97, 37);
             this.bt_selecao.TabIndex = 1;
@@ -75,7 +76,7 @@
             this.bt_quickSort.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             this.bt_quickSort.FlatAppearance.BorderSize = 3;
             this.bt_quickSort.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_quickSort.Location = new System.Drawing.Point(300, 104);
+            this.bt_quickSort.Location = new System.Drawing.Point(220, 107);
             this.bt_quickSort.Name = "bt_quickSort";
             this.bt_quickSort.Size = new System.Drawing.Size(97, 37);
             this.bt_quickSort.TabIndex = 2;
@@ -88,7 +89,7 @@
             this.bt_MergeSort.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             this.bt_MergeSort.FlatAppearance.BorderSize = 3;
             this.bt_MergeSort.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_MergeSort.Location = new System.Drawing.Point(403, 104);
+            this.bt_MergeSort.Location = new System.Drawing.Point(323, 107);
             this.bt_MergeSort.Name = "bt_MergeSort";
             this.bt_MergeSort.Size = new System.Drawing.Size(97, 37);
             this.bt_MergeSort.TabIndex = 3;
@@ -195,12 +196,26 @@
             this.aux_Crescente.Text = "aux_Crescente";
             this.aux_Crescente.Visible = false;
             // 
+            // btn_insercao
+            // 
+            this.btn_insercao.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btn_insercao.FlatAppearance.BorderSize = 3;
+            this.btn_insercao.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_insercao.Location = new System.Drawing.Point(426, 107);
+            this.btn_insercao.Name = "btn_insercao";
+            this.btn_insercao.Size = new System.Drawing.Size(97, 37);
+            this.btn_insercao.TabIndex = 14;
+            this.btn_insercao.Text = "Inserção";
+            this.btn_insercao.UseVisualStyleBackColor = true;
+            this.btn_insercao.Click += new System.EventHandler(this.btn_insercao_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(574, 289);
+            this.ClientSize = new System.Drawing.Size(574, 320);
+            this.Controls.Add(this.btn_insercao);
             this.Controls.Add(this.aux_semiOrdenado);
             this.Controls.Add(this.aux_aleatorio);
             this.Controls.Add(this.aux_decrescente);
@@ -238,6 +253,7 @@
         private System.Windows.Forms.Label aux_aleatorio;
         private System.Windows.Forms.Label aux_decrescente;
         private System.Windows.Forms.Label aux_Crescente;
+        private System.Windows.Forms.Button btn_insercao;
     }
 }
 
